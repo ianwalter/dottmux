@@ -1,5 +1,5 @@
 # dottmux
-> Ian's [tmux][tmuxUrl] config and cheatsheet
+> Ian's [tmux][tmuxUrl] config and cheatsheet (part of [dotfiles][dotfilesUrl])
 
 ## Cheatsheet
 
@@ -12,13 +12,18 @@
 ### Command Mode
 
 - `<ctrl>b` Enter command mode
-- `<ctrl>d` Exit current session
+- `<ctrl>d` kill current session
 
 #### Session Navigation
 
-- `(` Jump to previous session
-- `)` Jump to next session
-- `:ls` List active sessions
+- `d` Detach from current session
+- `L` Jump to last session
+
+#### Window Navigation
+
+- `(` Jump to previous window
+- `)` Jump to next window
+- `:ls` List active sessi
 
 #### Splits
 
@@ -26,3 +31,6 @@
 - `"` Split the screen horizontally
 
 - `[` Enter scroll mode
+
+[tmuxUrl]: https://github.com/tmux/tmux
+[dotfilesUrl]: https://github.com/ianwalter/dotfiles
