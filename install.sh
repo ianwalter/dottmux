@@ -7,3 +7,7 @@ fi
 
 # Copy the configuration file to the home directory.
 cp .tmux.conf ~/
+
+if [[ $? == 0 ]]; then
+  printf '\n✅ Installed tmux configuration successfully.\n'
+fi
