@@ -14,23 +14,26 @@
 - `<ctrl>s` Enter command mode
 - `<ctrl>d` kill current split/window/session
 
-#### Session Navigation
+#### Sessions
 
+- `(` Switch to previous session
+- `)` Switch to next session
+- `L` Switch to last session
 - `d` Detach from current session
-- `L` Jump to last session
 - `:ls` List active sessions
 
-#### Window Navigation
+#### Windows
 
-- `<0-9>` Go to the given numbered window
-- `(` Jump to previous window
-- `)` Jump to next window
+- `<0-9>` Switch to the given numbered window
+- `p` Switch to previous window
+- `n` Switch to next window
 
 #### Splits
 
 - `|` Split the screen vertically
 - `-` Split the screen horizontally
 
+#### Other
 
 - `R` Reload tmux config
 - `[` Enter scroll mode
