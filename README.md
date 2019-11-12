@@ -24,9 +24,11 @@
 
 #### Windows
 
+- `c` Create a new window
 - `<0-9>` Switch to the given numbered window
 - `p` Switch to previous window
 - `n` Switch to next window
+- `,` Rename current window
 
 #### Splits
 
