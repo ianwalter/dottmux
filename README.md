@@ -29,6 +29,7 @@
 - `p` Switch to previous window
 - `n` Switch to next window
 - `,` Rename current window
+- `&` Close current window
 
 #### Splits
 
