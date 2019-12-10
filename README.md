@@ -36,10 +36,14 @@
 - `|` Split the screen vertically
 - `-` Split the screen horizontally
 
+#### Copy mode
+
+- `[` Enter copy mode
+- `<space>` Enter selection mode
+
 #### Other
 
 - `R` Reload tmux config
-- `[` Enter scroll mode
 
 [tmuxUrl]: https://github.com/tmux/tmux
 [dotfilesUrl]: https://github.com/ianwalter/dotfiles
